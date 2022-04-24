@@ -36,10 +36,27 @@ p {
   
 }
 
-.items div:last-child {
+.items .item06 {
   margin-bottom: 0;
   text-align: right;
   
+}
+
+.item-detail ul {
+  margin: 0;
+  padding: 0;
+}
+
+.item-detail li {
+  list-style-type: none;
+}
+
+.item-detail li::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #333;
 }
 
 .content .item-title {
